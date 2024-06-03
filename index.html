@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Information Collector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Enter your name</h1>
+    <form id="infoForm" action="https://formspree.io/f/xwkgdqpq" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="hidden" id="ip" name="ip">
+        <input type="hidden" id="location" name="location">
+        <button type="submit">Submit</button>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
